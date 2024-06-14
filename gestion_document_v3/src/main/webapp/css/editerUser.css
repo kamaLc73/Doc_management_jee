@@ -1,0 +1,66 @@
+/* Reset styles (optional) */
+body, h1, h2, h3, h4, h5, h6, p, ul, ol, li, form, fieldset, legend, input, textarea, button, select {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+/* Main styles */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f5f5f5;
+  padding: 20px;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Form styles */
+form {
+  display: flex; /* arrange labels and inputs horizontally */
+  flex-direction: column; /* stack labels and inputs vertically */
+  width: 400px; /* adjust as needed */
+  margin: auto;
+}
+
+label {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="password"],
+select {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  margin-bottom: 10px;
+  width: 100%; /* Make inputs and select fill the available space */
+}
+
+button[type="submit"] {
+  background-color: #4B5C90;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+button[type="submit"]:hover {
+  background-color: #334466;
+}
+
+/* Error message styles */
+h4 {
+  color: red; /* Assuming error message */
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+}

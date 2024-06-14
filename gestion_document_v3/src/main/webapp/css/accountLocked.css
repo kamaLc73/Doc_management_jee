@@ -1,0 +1,49 @@
+@charset "ISO-8859-1";
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #4B5C90; 
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    margin: 8px 8px;
+}
+
+main {
+    text-align: center;
+}
+
+footer {
+    background-color: #4B5C90; 
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    margin: 8px 8px;
+}
+
+.centered-message {
+    width: 30%;
+    margin: 10% auto;
+    background-color: transparent;
+    padding: 20px;
+    text-align: justify; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+}
+
+.centered-message p {
+    color: black; 
+}
+
+.centered-message p::first-letter {
+    text-transform: uppercase; 
+}
